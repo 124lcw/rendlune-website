@@ -3,22 +3,775 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="robots" content="noindex">
-<title>Rendlune — coming soon</title>
+<title>Rendlune: 8-Hour Ambient Video Maker for YouTube &amp; Shorts</title>
+<meta name="description" content="Turn one nature clip into a seamless 8-hour YouTube video plus Shorts, Reels and TikToks, with on-screen CTAs and AI titles. Windows app, one-time price.">
+<meta name="author" content="QuantumStream Ventures Ltd.">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta name="theme-color" content="#eef2ef">
+<link rel="icon" href="favicon.png" type="image/png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="canonical" href="https://rendlune.com/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Rendlune">
+<meta property="og:locale" content="en_US">
+<meta property="og:url" content="https://rendlune.com/">
+<meta property="og:title" content="Rendlune: One clip in. Every platform out.">
+<meta property="og:description" content="One short nature clip in. A seamless 8-hour YouTube video, Shorts, Reels, square posts, on-screen CTAs and AI-written titles out. Windows app, one-time price.">
+<meta property="og:image" content="https://rendlune.com/images/social-preview.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Rendlune logo">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Rendlune: One clip in. Every platform out.">
+<meta name="twitter:description" content="Seamless 8-hour YouTube videos, Shorts, Reels and AI-written titles from one nature clip. Windows app, one-time price.">
+<meta name="twitter:image" content="https://rendlune.com/images/social-preview.png">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://rendlune.com/#organization",
+      "name": "QuantumStream Ventures Ltd.",
+      "url": "https://rendlune.com/",
+      "email": "hello@rendlune.com",
+      "logo": "https://rendlune.com/images/logo-512.png",
+      "sameAs": [
+        "https://www.youtube.com/@rendlune"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://rendlune.com/#website",
+      "name": "Rendlune",
+      "url": "https://rendlune.com/",
+      "publisher": {
+        "@id": "https://rendlune.com/#organization"
+      },
+      "inLanguage": "en"
+    },
+    {
+      "@type": "SoftwareApplication",
+      "@id": "https://rendlune.com/#software",
+      "name": "Rendlune",
+      "url": "https://rendlune.com/",
+      "description": "Windows app that turns one short nature clip into a seamless long YouTube video, Shorts and square clips with on-screen calls to action and AI-written titles. Rendering happens on your own PC.",
+      "applicationCategory": "MultimediaApplication",
+      "operatingSystem": "Windows 10, Windows 11",
+      "image": "https://rendlune.com/images/social-preview.png",
+      "publisher": {
+        "@id": "https://rendlune.com/#organization"
+      },
+      "offers": [
+        {
+          "@type": "Offer",
+          "name": "Launch price, first 100 buyers",
+          "price": "49.00",
+          "priceCurrency": "USD",
+          "availability": "https://schema.org/PreOrder",
+          "url": "https://rendlune.com/#pricing"
+        },
+        {
+          "@type": "Offer",
+          "name": "Regular price",
+          "price": "79.00",
+          "priceCurrency": "USD",
+          "availability": "https://schema.org/PreOrder",
+          "url": "https://rendlune.com/#pricing"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://rendlune.com/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "When can I get it?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Rendlune is almost ready. Subscribe on YouTube or email us and we’ll tell you the day the free trial and the $49 launch price open."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is there a free trial?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, with no time limit and no card. Every feature works; videos carry a small moving “Made with Rendlune · Free trial” mark and Masters stop at 10 minutes. Buy a license to remove both."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need video editing experience?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. You pick your lengths, type your on-screen lines and click Start Production. A Quick Start guide (in the Help menu) and “Next step” tips walk you through your first video."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is a seamless loop?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A video that repeats a short clip so smoothly you can’t see where it restarts. Rendlune crossfades the clip’s end into its start, picture and sound, so an 8-hour video looks like one continuous scene. How invisible the loop is depends on the clip: steady, gentle motion (water, rain, fire, snow) loops best; sudden changes, people or camera moves are harder to hide."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I make TikToks and Instagram Reels too?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. The 9:16 clips work for YouTube Shorts, TikTok and Instagram Reels, and the square clips for feeds. Rendlune writes the captions for each platform."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does a 12-hour video take to render?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "In our testing, a 12-hour 4K Master plus eight short clips took under 8 minutes on the processor alone, without a graphics card. Rendlune renders one seamless loop and repeats it, so a longer video barely adds time. Rendering speed is hardware dependent, so treat this as an example, not a guarantee: your time will vary with your computer, your clip and the lengths and outputs you choose."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How can I make long renders faster?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Save to your fastest drive with plenty of free space. An 8-hour 4K Master is about 100–170 GB, and some SSDs slow down a lot once they’ve written their first 100 GB or so. A graphics card (NVIDIA or AMD) speeds up the Shorts and square clips."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I use it just to turn wide videos into Shorts and Reels?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Untick the Master and Rendlune makes only the 9:16 and 1:1 clips. It works with landscape, ultra-wide and other odd-sized footage: drag a box to choose what stays in frame."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I change or turn off the subscribe reminders?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Write any line you like (it doesn’t have to say “subscribe”) and choose how often it repeats on long videos: every 15, 30 or 60 minutes, or off. You can also hide the welcome or closing line for any format."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What if my clip isn’t 16:9?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It still works, vertical phone videos included. Rendlune zooms the clip to fill the frame or places it on a soft blurred copy of itself, so there are no black bars unless you want them."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What if something goes wrong?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "In the app, choose Help, then Save diagnostics for support. It makes one file you can email to hello@rendlune.com so we can help faster."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does it only work with nature clips?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "It works with any short clip, but it’s made for nature and ambient footage, where gentle motion makes the loop hard to spot. Output quality also depends on your source clip: a sharp, steady, high-resolution clip gives the best 4K Master."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need an AI subscription?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. AI is optional: you can type your own titles and calls to action. To let Rendlune write them, paste a key from Google (free to create at aistudio.google.com), OpenAI or Anthropic. You pay that provider directly, usually a few cents per video, at the provider’s current prices. The key stays on your PC."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does it upload my videos anywhere?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No, and there’s no account to create. Rendering happens on your PC. The only things that leave it are the license check, the one-time FFmpeg download, and, only when you use an AI button, a single frame of your clip or your prompt, sent to the AI provider you chose under that provider’s own terms and privacy policy."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What do I need to run it?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Windows 10 or 11 (64-bit); there’s no Mac version yet. You’ll also need enough free disk space for your videos (in our testing about 100–170 GB for an 8-hour 4K Master and 150–260 GB for 12 hours, depending on the footage, and Rendlune checks your free space before it starts). A graphics card from NVIDIA or AMD makes rendering faster, but isn’t required. No administrator rights needed to install."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does Rendlune connect to the internet?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Only for the license check, the one-time FFmpeg download, a once-a-day check for a new version (the app tells you; nothing downloads by itself), and the AI requests you click. There’s no account to create and no tracking."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Where are my videos saved?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "In C:\\Rendlune Renders, one folder per project, unless you choose another folder. It’s kept outside OneDrive and Documents because the files are large."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is FFmpeg, and why does it download?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "FFmpeg is the free, widely used video tool that does the encoding. It’s a separate program with its own license, so instead of bundling it, Rendlune downloads the official release once on first start (currently about 258 MB), or uses a copy you already have."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I use it on my laptop and my desktop?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. A license works on two computers. To move it to a new one, deactivate it on the old one (Help > License)."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What happens after the 12 months of updates?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Nothing stops working: you keep using the version you have. Renew for $29 a year if you want the newer versions. Future changes to Windows or to the platforms’ rules may, in time, need a newer version."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I monetize the videos?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Videos made with a license are yours to publish and monetize, as long as you own, or have permission to use, the footage and any music or sound in them. Rendlune doesn’t supply or license footage. Clips you make with AI on the Generate page follow your AI provider’s terms. Each platform also decides monetization under its own rules, so check them before you rely on earnings. Rendlune can’t promise views, subscribers or income."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
 <style>
-  :root { color-scheme: light dark; }
-  body { font-family: system-ui, sans-serif; display: grid; place-items: center;
-         min-height: 100vh; margin: 0; padding: 1rem; text-align: center; }
-  h1 { font-size: 2.5rem; margin: 0 0 .5rem; }
-  p { margin: .25rem 0; }
+:root{
+  --mist:#eef2ef; --paper:#f9fbf9; --ink:#15251f; --ink-soft:#44564e; --rule:#c9d6d0;
+  --moss:#2d6a57; --moss-deep:#1f4a3d;
+  --night:#0f1d1a; --night-text:#e4ece8; --night-soft:#9fb3ab; --lune:#e2b857;
+  --serif:"Iowan Old Style","Palatino Linotype",Palatino,"Book Antiqua","URW Palladio L",Georgia,serif;
+  --sans:"Segoe UI",system-ui,-apple-system,"Helvetica Neue",Arial,sans-serif;
+  --gutter:clamp(1.25rem,4vw,2.5rem);
+  --space:clamp(3.5rem,8vw,6.5rem);
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--mist);color:var(--ink);font:1.0625rem/1.6 var(--sans)}
+img,svg{max-width:100%;height:auto;display:block}
+a{color:var(--moss);text-underline-offset:.18em}
+a:hover{color:var(--moss-deep)}
+:focus-visible{outline:3px solid var(--moss);outline-offset:3px;border-radius:2px}
+.night :focus-visible,.yt :focus-visible{outline-color:var(--lune)}
+.skip{position:absolute;left:-999px;top:0;background:var(--ink);color:#fff;padding:.6rem 1rem;z-index:10}
+.skip:focus{left:0}
+.wrap{width:min(100% - 2*var(--gutter),72rem);margin-inline:auto}
+
+h1,h2,h3{font-family:var(--serif);font-weight:400;line-height:1.12;letter-spacing:-.01em;margin:0 0 .6em;text-wrap:balance}
+h2{font-size:clamp(1.8rem,3.6vw,2.9rem)}
+h3{font-size:1.25rem;font-weight:700;letter-spacing:0;margin-bottom:.35rem}
+p{margin:0 0 1em}
+.intro{max-width:60ch;color:var(--ink-soft)}
+section{padding-block:var(--space)}
+
+/* header */
+.top{padding-block:1.1rem}
+.top-row{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:.5rem 2rem}
+.wordmark{display:inline-flex;align-items:center;gap:.65rem;font-family:var(--serif);font-size:1.7rem;color:var(--ink);text-decoration:none;letter-spacing:-.01em}
+.mark{width:2.25rem;height:2.25rem;flex:none}
+.wordmark:hover{color:var(--ink)}
+.top nav{display:flex;flex-wrap:wrap;gap:.25rem 1.5rem;font-size:.95rem}
+.top nav a{color:var(--ink-soft);text-decoration:none}
+.top nav a:hover{color:var(--moss);text-decoration:underline}
+
+/* hero */
+.hero{padding-top:clamp(2rem,5vw,4.5rem);padding-bottom:0}
+.soon{color:var(--moss);font-weight:600;margin:0 0 1.25rem}
+.hero h1{margin:0 0 1.5rem}
+.h1-kicker{display:block;font-family:var(--sans);font-size:clamp(1rem,1.6vw,1.2rem);font-weight:500;letter-spacing:0;color:var(--ink-soft);margin-bottom:1rem}
+.h1-line{display:block;font-size:clamp(3rem,9.5vw,7.5rem);line-height:.98;letter-spacing:-.025em}
+.lede{max-width:56ch;font-size:clamp(1.1rem,1.5vw,1.3rem)}
+.actions{display:flex;flex-wrap:wrap;gap:.75rem;margin:1.75rem 0 1.25rem}
+.btn{display:inline-block;padding:.8rem 1.4rem;border:1.5px solid var(--moss);border-radius:4px;font-weight:600;text-decoration:none;color:var(--moss)}
+.btn:hover{background:var(--moss);color:#fff}
+.btn.primary{background:var(--moss);color:#fff}
+.btn.primary:hover{background:var(--moss-deep);border-color:var(--moss-deep)}
+.facts{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:.25rem 1.75rem;color:var(--ink-soft);font-size:.95rem}
+.shot{margin:0}
+.hero-shot{margin-top:clamp(2rem,5vw,3.5rem);position:relative;z-index:1}
+.window{display:block;background:#0e0f11;border-radius:10px;overflow:hidden;border:1px solid rgba(21,37,31,.3)}
+.window img{width:100%;aspect-ratio:16/9;object-fit:cover}
+.hero-shot .window{box-shadow:0 32px 64px -32px rgba(21,37,31,.5)}
+figcaption{color:var(--ink-soft);font-size:.9rem;margin-top:.75rem;max-width:70ch}
+@media (prefers-reduced-motion:no-preference){
+  .hero-shot{animation:rise .9s cubic-bezier(.2,.7,.2,1) both}
+  @keyframes rise{from{opacity:0;transform:translateY(1.25rem)}to{opacity:1;transform:none}}
+}
+
+/* glance */
+.glance-sec{padding-block:calc(var(--space)*.8) calc(var(--space)*.45)}
+.glance{display:grid;grid-template-columns:repeat(auto-fit,minmax(15rem,1fr));margin-top:2rem;border-top:2px solid var(--ink)}
+.glance>div{padding:1.25rem 1.5rem 1.5rem 0;border-bottom:1px solid var(--rule)}
+.glance p{margin:0;color:var(--ink-soft);font-size:.98rem}
+
+/* generic groups */
+.pairs{display:grid;grid-template-columns:repeat(auto-fit,minmax(17rem,1fr));gap:2.25rem 3rem;margin-top:2.25rem}
+.pairs.four{grid-template-columns:repeat(auto-fit,minmax(13.5rem,1fr))}
+@media (min-width:48rem){.pairs.two{grid-template-columns:repeat(2,1fr)}}
+.pairs>div{border-top:2px solid var(--ink);padding-top:1rem}
+.pairs p{margin:0;color:var(--ink-soft)}
+.closing{margin-top:2.5rem;font-family:var(--serif);font-size:clamp(1.25rem,2vw,1.6rem);max-width:40ch}
+
+/* how it works: a real sequence, so it is numbered */
+.steps{list-style:none;margin:2.25rem 0 0;padding:0;display:grid;gap:2rem;counter-reset:s}
+.steps li{counter-increment:s;border-top:1px solid var(--rule);padding-top:1.25rem;display:grid;grid-template-columns:3.5rem 1fr;gap:1rem}
+.steps li::before{content:counter(s);font-family:var(--serif);font-size:3rem;line-height:1;color:var(--moss)}
+.steps p{margin:0;color:var(--ink-soft)}
+@media (min-width:56rem){.steps{grid-template-columns:repeat(3,1fr);gap:2.5rem}.steps li{grid-template-columns:1fr}}
+
+/* the one dark moment: real numbers */
+.night{background:var(--night);color:var(--night-text)}
+.night h2{color:#fff}
+.night a{color:var(--lune)}
+.night .intro{color:var(--night-soft)}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(12rem,1fr));margin:2.5rem 0 0;border-top:1px solid rgba(255,255,255,.25)}
+.stats>div{padding:1.4rem 1.5rem 1.5rem 0;border-bottom:1px solid rgba(255,255,255,.15)}
+.stats dt{font-family:var(--serif);font-size:clamp(1.8rem,3vw,2.5rem);line-height:1.1;color:var(--lune);white-space:nowrap}
+.stats dd{margin:.4rem 0 0;color:var(--night-soft);font-size:.98rem}
+.note{font-size:.9rem;color:var(--night-soft);max-width:78ch;margin:2rem 0 0}
+
+/* features */
+.features{list-style:none;margin:2.25rem 0 0;padding:0;display:grid;gap:0 4rem;grid-template-columns:repeat(auto-fit,minmax(min(100%,22rem),1fr))}
+.features li{border-top:1px solid var(--rule);padding:1.25rem 0 1.5rem}
+.features p{margin:0;color:var(--ink-soft)}
+
+/* spotlights */
+.spots{padding-top:0}
+.spot{display:grid;gap:1.75rem 3.5rem;align-items:center;margin-top:clamp(3rem,7vw,5.5rem)}
+.spot .shot a.window{display:block}
+@media (min-width:60rem){
+  .spot{grid-template-columns:5fr 7fr}
+  .spot.flip{grid-template-columns:7fr 5fr}
+  .spot.flip .spot-text{order:2}
+}
+.statement{margin-top:clamp(3rem,7vw,5rem);font-family:var(--serif);font-size:clamp(1.3rem,2.4vw,1.9rem);line-height:1.3;max-width:34ch}
+.statement strong{font-weight:700}
+
+/* vertical-only */
+.paper{background:var(--paper);border-block:1px solid var(--rule)}
+.vertical{display:grid;gap:2.5rem 4rem;align-items:center}
+@media (min-width:56rem){.vertical{grid-template-columns:1.1fr .9fr}}
+.vertical ul{padding-left:1.1rem;margin:1.25rem 0 0}
+.vertical li{margin-bottom:.5rem}
+.reframe{color:var(--ink)}
+.reframe .src{fill:var(--night)}
+.reframe .out{fill:var(--moss)}
+.reframe text{font-family:var(--sans);font-size:13px;fill:#fff}
+.reframe line,.reframe path{stroke:var(--ink-soft);stroke-width:2;fill:none}
+
+/* tables */
+.table-wrap{overflow-x:auto;margin-top:2rem;border-top:2px solid var(--ink)}
+table{border-collapse:collapse;width:100%;min-width:38rem;font-size:.98rem}
+th,td{text-align:left;vertical-align:top;padding:.9rem 1.1rem .9rem 0;border-bottom:1px solid var(--rule)}
+thead th{font-family:var(--serif);font-size:1.05rem;white-space:nowrap}
+tbody th{font-weight:700;width:12rem}
+th.us,td.us{background:var(--paper);padding-left:1rem}
+.tnote{font-size:.9rem;color:var(--ink-soft);margin-top:.9rem;max-width:75ch}
+@media (min-width:48rem){.swipe{display:none}}
+.gap{margin-top:clamp(3rem,6vw,4.5rem)}
+
+/* look inside */
+.looks{display:grid;gap:2.25rem;grid-template-columns:repeat(auto-fit,minmax(min(100%,24rem),1fr));margin-top:2.25rem}
+.looks figcaption{color:var(--ink);font-size:1rem}
+.looks figcaption span{color:var(--ink-soft)}
+
+/* ideas */
+.ideas{list-style:none;margin:1.5rem 0 0;padding:0;columns:12.5rem}
+.ideas li{padding:.3rem 0;break-inside:avoid}
+
+/* price */
+.plans{display:grid;gap:1.5rem;grid-template-columns:repeat(auto-fit,minmax(min(100%,21rem),1fr));margin-top:2.25rem}
+.plan{position:relative;background:var(--paper);border:1px solid var(--rule);padding:clamp(1.5rem,3vw,2.25rem);display:flex;flex-direction:column}
+.plan.main{border:2px solid var(--moss)}
+.plan h3{font-size:1.4rem}
+.price{font-family:var(--serif);font-size:3rem;line-height:1;margin:.25rem 0 .5rem}
+.price s{font-size:1.6rem;color:var(--ink-soft);margin-right:.5rem}
+.price small{font-size:1.1rem;font-family:var(--sans);color:var(--ink-soft)}
+.tag{position:absolute;top:-.85rem;left:clamp(1.5rem,3vw,2.25rem);background:var(--lune);color:var(--ink);font-weight:600;font-size:.9rem;padding:.2rem .65rem;border-radius:3px}
+.plan ul{padding-left:1.1rem;margin:1rem 0 0}
+.plan li{margin-bottom:.45rem}
+.plan-cta{margin-top:auto;padding-top:1.5rem}
+.plan-cta p{margin:.6rem 0 0;font-size:.9rem;color:var(--ink-soft)}
+.fine{font-size:.92rem;color:var(--ink-soft);max-width:80ch;margin-top:1.75rem}
+
+/* faq */
+.faq{margin-top:2rem;max-width:52rem;border-bottom:1px solid var(--rule)}
+.faq details{border-top:1px solid var(--rule)}
+.faq summary{cursor:pointer;list-style:none;position:relative;padding:1.1rem 2.75rem 1.1rem 0;font-family:var(--serif);font-size:1.2rem;line-height:1.3}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{content:"+";position:absolute;right:.35rem;top:.85rem;font-size:1.7rem;line-height:1;color:var(--moss)}
+.faq details[open] summary::after{content:"\2212"}
+.faq .ans{padding:0 2.75rem 1.25rem 0;color:var(--ink-soft)}
+.faq .ans p{margin:0}
+
+/* youtube + footer */
+.yt{background:var(--moss);color:#fff;padding-block:clamp(2.75rem,6vw,4.5rem)}
+.yt h2{color:#fff;margin-bottom:.4em}
+.yt a{color:#fff;font-weight:600}
+.site-foot{padding-block:3rem 4rem;font-size:.9rem;color:var(--ink-soft)}
+.notes{display:grid;gap:1rem 2.5rem;grid-template-columns:repeat(auto-fit,minmax(min(100%,20rem),1fr))}
+.notes p{margin:0}
+.made{margin:2rem 0 .25rem;color:var(--ink)}
+
+/* 404 */
+.lost{min-height:60vh;display:grid;align-content:center;padding-block:var(--space)}
 </style>
 </head>
 <body>
-<main>
-  <h1>Rendlune</h1>
-  <p>One clip in. Every platform out.</p>
-  <p>Coming soon for Windows.</p>
-  <p><a href="mailto:hello@rendlune.com">hello@rendlune.com</a></p>
+<a class="skip" href="#main">Skip to content</a>
+<header class="top">
+  <div class="wrap top-row">
+    <a class="wordmark" href="#top" aria-label="Rendlune, back to top"><img class="mark" src="images/logo-512.png" width="36" height="36" alt="">Rendlune</a>
+    <nav aria-label="Main">
+      <a href="#who">Who it’s for</a>
+      <a href="#how">How it works</a>
+      <a href="#features">Features</a>
+      <a href="#pricing">Price</a>
+      <a href="#faq">FAQ</a>
+      <a href="https://www.youtube.com/@rendlune" rel="noopener">YouTube</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+<section class="hero" id="top" aria-labelledby="h-hero">
+  <div class="wrap">
+    <p class="soon">Coming soon for Windows</p>
+    <h1 id="h-hero"><span class="h1-kicker">The ambient video maker for YouTube, Shorts and Reels</span><span class="h1-line">One clip in.</span><span class="h1-line">Every platform out.</span></h1>
+    <p class="lede">Turn one short nature clip into a seamless 8-hour YouTube video, plus Shorts, TikToks, Reels and square posts, with your on-screen calls to action and ready-to-paste titles. All on your own Windows PC, for a one&#8209;time price.</p>
+    <div class="actions">
+      <a class="btn primary" href="https://www.youtube.com/@rendlune" rel="noopener">Watch on YouTube</a>
+      <a class="btn" href="mailto:hello@rendlune.com?subject=Tell%20me%20when%20Rendlune%20launches">Get launch news by email</a>
+    </div>
+    <ul class="facts">
+      <li>Windows 10 and 11</li>
+      <li>No subscription</li>
+      <li>Free trial at launch, no card</li>
+    </ul>
+  </div>
+  <div class="wrap"><figure class="shot hero-shot"><a class="window" href="images/screenshots/01_compose.jpg" target="_blank" rel="noopener" title="Open full size"><img src="images/screenshots/01_compose.jpg" width="1920" height="1080" alt="Rendlune Compose page: Master set to 8 hours, Shorts and Social clips at 30 seconds, and the Crop Preview showing a forest waterfall framed in 16:9, 9:16 and 1:1 with on-screen text" loading="eager" fetchpriority="high"></a><figcaption>One clip, three formats, framed in one place: the Compose page with the Crop Preview. Click to see it full size.</figcaption></figure></div>
+</section>
+
+<section class="glance-sec" aria-labelledby="h-glance">
+  <div class="wrap">
+    <h2 id="h-glance">Rendlune at a glance</h2>
+    <div class="glance">
+      <div><h3>Up to 24 hours</h3><p>Seamless 4K YouTube Masters, with 1, 3 and 8 hours one click away</p></div>
+      <div><h3>12 h of 4K in under 8 min<a href="#render-note" aria-label="About render times">*</a></h3><p>Plus eight short clips. Our testing, processor only</p></div>
+      <div><h3>Shorts, Reels, square</h3><p>9:16 and 1:1 clips from 15 s to 3 minutes, framed by dragging a box</p></div>
+      <div><h3>Vertical clips only</h3><p>Or skip the long video and just reframe wide footage into 9:16 and 1:1</p></div>
+      <div><h3>On-screen calls to action</h3><p>Welcome, reminder and closing lines in your words; reminders every 15, 30 or 60 min, or off</p></div>
+      <div><h3>AI titles for 6 platforms</h3><p>YouTube, Shorts, TikTok, Instagram, Facebook and Pinterest, within each one’s limits</p></div>
+      <div><h3>Offline on your PC</h3><p>No uploads, no cloud fees, no queue. Windows 10 and 11</p></div>
+      <div><h3>Pay once, 2 PCs</h3><p>$79 one-time ($49 for the first 100 buyers), 12 months of updates</p></div>
+    </div>
+  </div>
+</section>
+
+<section aria-labelledby="h-problems">
+  <div class="wrap">
+    <h2 id="h-problems">Making ambient videos shouldn’t take all week</h2>
+    <p class="intro">Relaxing nature videos look simple. Making them for every platform, every week, is not.</p>
+    <div class="pairs two">
+      <div><h3>Long videos take forever</h3><p>Looping a 30-second clip into an 8-hour video in a normal editor means a huge timeline, a long export, and often a visible jump every time the loop restarts.</p></div>
+      <div><h3>Every platform wants its own version</h3><p>YouTube wants 16:9. Shorts, TikTok and Reels want 9:16. Feeds want square. That’s re-cropping and re-exporting the same footage again and again.</p></div>
+      <div><h3>The tools and subscriptions pile up</h3><p>A loop tool, a clip tool, an SEO tool, maybe a cloud editor that charges by the minute. The monthly bills start before your channel earns anything.</p></div>
+      <div><h3>Writing the text is a second job</h3><p>Titles, descriptions, tags and captions for six platforms, each with its own length limits. Plus remembering to ask viewers to subscribe.</p></div>
+    </div>
+    <p class="closing">Rendlune replaces that whole routine with one click, on your own PC, for one price.</p>
+  </div>
+</section>
+
+<section class="paper" id="who" aria-labelledby="h-who">
+  <div class="wrap">
+    <h2 id="h-who">Made for faceless and ambient channels</h2>
+    <p class="intro">If you post calm, looping footage, or want to start, Rendlune is built around your workflow.</p>
+    <div class="pairs four">
+      <div><h3>Ambient and relaxation channels</h3><p>Rain, waterfalls, fireplaces, forests, ocean waves: long videos for sleep, study, focus and meditation.</p></div>
+      <div><h3>New faceless channels</h3><p>Starting out? Post a long video and a set of Shorts from day one, without learning a video editor or paying monthly.</p></div>
+      <div><h3>AI-video creators</h3><p>Turn short AI-generated scenes into long seamless loops and platform-ready cutdowns, or make the seed clip right in the app.</p></div>
+      <div><h3>Multi-platform posters</h3><p>On YouTube, TikTok, Instagram, Facebook and Pinterest? Get every format, and the text for each, from one render.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="how" aria-labelledby="h-how">
+  <div class="wrap">
+    <h2 id="h-how">Three steps. One click to render.</h2>
+    <p class="intro">No editing timeline, no exporting six times. Rendlune does the whole job in one pass.</p>
+    <ol class="steps">
+      <li><div><h3>Drop in your clip</h3><p>Any short nature clip you own or have permission to use: a waterfall, rain, a fireplace. No clip yet? Make one with AI on the Generate page.</p></div></li>
+      <li><div><h3>Choose what to make</h3><p>A Master from 1 minute to 24 hours, Shorts and square posts up to 3 minutes. Drag a box to frame each one, and type your welcome, subscribe and closing lines.</p></div></li>
+      <li><div><h3>Click Start Production</h3><p>Rendlune renders everything on your PC and writes the titles, descriptions and tags. You get one folder per platform, ready to upload.</p></div></li>
+    </ol>
+  </div>
+</section>
+
+<section class="night" id="numbers" aria-labelledby="h-numbers">
+  <div class="wrap">
+    <h2 id="h-numbers">12 hours of 4K in under 8 minutes<a href="#render-note" aria-label="About render times">*</a></h2>
+    <p class="intro">One short clip in. A seamless 12-hour 4K YouTube Master and eight short clips out, all with their calls to action, in a single run, on the processor alone, without a graphics card. Rendlune renders one seamless loop and repeats it, so length barely adds time.</p>
+    <dl class="stats">
+      <div><dt>12 h</dt><dd>4K Master (3840&times;2160) from one short clip</dd></div>
+      <div><dt>8</dt><dd>short clips: 15 s, 30 s, 60 s and 3 min, each in 9:16 and 1:1</dd></div>
+      <div><dt>Every 30 min</dt><dd>subscribe reminders, plus welcome and closing lines (also: 15 or 60 min, or off)</dd></div>
+      <div><dt>Under 8 min<a href="#render-note" aria-label="About render times">*</a></dt><dd>for everything, start to finish, processor only</dd></div>
+    </dl>
+    <p class="note" id="render-note"><strong>* About render times:</strong> rendering speed is hardware dependent. These figures are examples from our own testing on a Windows PC using its processor (no graphics card), not a guarantee. Your times will vary with your computer (processor, graphics card, memory, disk speed and free space), your source clip, the lengths and number of outputs you choose, and anything else running at the same time.</p>
+  </div>
+</section>
+
+<section id="features" aria-labelledby="h-features">
+  <div class="wrap">
+    <h2 id="h-features">Everything your channel needs, in one pass</h2>
+    <p class="intro">One render gives you the long video, the short clips and the words to post them with. Here’s what’s inside.</p>
+    <ul class="features">
+      <li><h3>Seamless loop, picture and sound</h3><p>4K YouTube Masters from 1 minute to 24 hours (1, 3 and 8 hours one click away). The clip’s end crossfades into its start, picture and sound, so there’s no jump when it repeats.</p></li>
+      <li><h3>Fast, even for 12 hours</h3><p>Rendlune renders one seamless loop and repeats it, so length barely adds time. A 12-hour 4K Master plus 8 short clips took under 8 minutes<a href="#render-note" aria-label="About render times">*</a> on an ordinary PC’s processor, no graphics card needed.</p></li>
+      <li><h3>Any clip shape</h3><p>Clips that aren’t 16:9, vertical phone videos included, are zoomed to fill the frame or placed on a soft blurred copy of themselves. No black bars unless you want them.</p></li>
+      <li><h3>Shorts and square posts</h3><p>9:16 and 1:1 clips of 15 s, 30 s, 60 s or up to 3 minutes, each framed by dragging a box over your clip. Or untick the Master and make only these.</p></li>
+      <li><h3>Readable calls to action, automatically</h3><p>Each line gets a soft dark backdrop only where the video behind it is bright, and stays clear of each platform’s buttons, captions and progress bar (as they are laid out today). Short clips show only as many lines as can be read.</p></li>
+      <li><h3>Mid-video reminders, your way</h3><p>Your own words, such as “Subscribe for more”, repeated on long videos every 15, 30 or 60 minutes, or turned off. Spaced so they never bunch up.</p></li>
+      <li><h3>What you see is what you get</h3><p>The Crop Preview shows each format exactly as it will render. Drag the crop boxes and the text, and click a preview to edit that format’s lines.</p></li>
+      <li><h3>Six platforms of text in one click</h3><p>AI looks at a frame of your clip and writes titles, descriptions, tags, hooks and captions within each platform’s limits. The limits and AI models are re-checked weekly. Read them over before you post.</p></li>
+      <li><h3>Ready to upload</h3><p>A Delivery folder with one subfolder per platform, each with its video and the text to paste.</p></li>
+      <li><h3>Make a clip from nothing</h3><p>No footage yet? The Generate page turns a text prompt or a photo into a seed clip with AI.</p></li>
+      <li><h3>Easy to start</h3><p>A welcome window, a 5-step illustrated Quick Start guide and one-time “Next step” tips. Built-in support too: Help, then Save diagnostics, makes one file to email us.</p></li>
+      <li><h3>Private and offline</h3><p>No account, no uploads, no tracking. Only the license check, the one-time FFmpeg download, a daily check for a new version and the AI requests you click leave your PC.</p></li>
+    </ul>
+  </div>
+</section>
+
+<section class="spots" aria-label="A closer look">
+  <div class="wrap">
+    <div class="spot">
+      <div class="spot-text">
+        <h2>Phone video? Odd size? It still fits.</h2>
+        <p class="intro">Clips that aren’t 16:9, vertical phone videos included, are zoomed to fill the frame or placed on a soft blurred copy of themselves. The Crop Preview tells you what it did, and there are no black bars unless you want them.</p>
+      </div>
+      <figure class="shot"><a class="window" href="images/screenshots/06_any_clip_shape.jpg" target="_blank" rel="noopener" title="Open full size"><img src="images/screenshots/06_any_clip_shape.jpg" width="1920" height="1080" alt="Rendlune Crop Preview of a vertical phone clip placed on a soft blurred copy of itself in the 16:9 Master, with the 9:16 Short and 1:1 square crops beside it" loading="lazy"></a></figure>
+    </div>
+    <div class="spot flip">
+      <div class="spot-text">
+        <h2>Titles, descriptions, tags and captions in one click</h2>
+        <p class="intro">AI looks at a frame of your clip and writes the text for YouTube, Shorts, TikTok, Reels, Instagram, Pinterest and Facebook, each within that platform’s limits, with a character count beside every field. Read it over, then copy one field or all of them.</p>
+      </div>
+      <figure class="shot"><a class="window" href="images/screenshots/04_publish.jpg" target="_blank" rel="noopener" title="Open full size"><img src="images/screenshots/04_publish.jpg" width="1920" height="1080" alt="Rendlune Publish page: AI-written YouTube title, description and tags, and captions for Shorts, TikTok, Reels, Instagram, Pinterest and Facebook, each with a character count and a Copy button" loading="lazy"></a></figure>
+    </div>
+    <div class="spot">
+      <div class="spot-text">
+        <h2>Play it, then open the Delivery folder</h2>
+        <p class="intro">When the render is done, the Review page lets you play every video. One click on Delivery Folder opens a subfolder per platform, each with its video and the text to paste.</p>
+      </div>
+      <figure class="shot"><a class="window" href="images/screenshots/03_review.jpg" target="_blank" rel="noopener" title="Open full size"><img src="images/screenshots/03_review.jpg" width="1920" height="1080" alt="Rendlune Review page: render summary with View Production Log, Open Output Folder and Delivery Folder buttons, and the finished Master, Short and square videos ready to play" loading="lazy"></a></figure>
+    </div>
+    <p class="statement"><strong>Rendering happens on your own PC</strong>, using your graphics card when it can. No uploads, no cloud fees, no waiting in a queue.</p>
+  </div>
+</section>
+
+<section class="paper" aria-labelledby="h-vertical">
+  <div class="wrap vertical">
+    <div>
+      <h2 id="h-vertical">Turn wide videos into Shorts, Reels and square posts</h2>
+      <p class="intro">You don’t have to make a long video at all. Untick the Master and use Rendlune just to reframe wide or odd-sized footage (landscape, ultra-wide, drone or 4:3) into 9:16 and 1:1 clips. Use footage you own or have permission to use.</p>
+      <ul>
+        <li>Drag a box to choose what stays in frame for each format; vertical and odd-sized clips work too</li>
+        <li>Lengths of 15 s, 30 s, 60 s or up to 3 minutes</li>
+        <li>Your on-screen text, readable and kept clear of each app’s buttons</li>
+        <li>Captions written for YouTube Shorts, TikTok, Instagram, Facebook and Pinterest</li>
+      </ul>
+    </div>
+    <svg class="reframe" viewBox="0 0 340 220" role="img" aria-label="A wide or odd-sized clip becomes a 9:16 clip and a 1:1 clip">
+      <rect class="src" x="6" y="68" width="150" height="84" rx="4"/>
+      <text x="81" y="116" text-anchor="middle">Wide or odd size</text>
+      <path d="M164 110 H206 M198 102 L206 110 L198 118"/>
+      <rect class="out" x="222" y="8" width="52" height="92" rx="4"/>
+      <text x="248" y="58" text-anchor="middle">9:16</text>
+      <rect class="out" x="222" y="116" width="92" height="92" rx="4"/>
+      <text x="268" y="166" text-anchor="middle">1:1</text>
+    </svg>
+  </div>
+</section>
+
+<section id="compare" aria-labelledby="h-before">
+  <div class="wrap">
+    <h2 id="h-before">The usual way vs. Rendlune</h2>
+    <p class="intro">Same footage, same goal: a long YouTube video and short clips for every platform.</p>
+    <div class="table-wrap" role="region" aria-label="The usual way compared with Rendlune" tabindex="0">
+      <table>
+        <thead><tr><th scope="col">Job</th><th scope="col">The usual way</th><th scope="col" class="us">With Rendlune</th></tr></thead>
+        <tbody>
+          <tr><th scope="row">Long video (8 hours or more)</th><td>Loop it in an editor, wait for a long export, check for the seam</td><td class="us">Pick the length. A seamless 4K loop, rendered on your PC (12 hours with all the short clips took under 8 minutes in our testing<a href="#render-note" aria-label="About render times">*</a>)</td></tr>
+          <tr><th scope="row">Shorts, Reels, square posts</th><td>Re-crop and export each one separately</td><td class="us">Drag a box per format; all render in the same pass</td></tr>
+          <tr><th scope="row">Subscribe reminders</th><td>Add text by hand to every video</td><td class="us">Welcome, reminder and closing lines on every format, in your own words; reminders every 15, 30 or 60 minutes, or off</td></tr>
+          <tr><th scope="row">Titles, descriptions, tags</th><td>Write them for each platform and count characters</td><td class="us">AI writes them for six platforms, sized to each one’s limits</td></tr>
+          <tr><th scope="row">Ready to upload</th><td>Hunt for files and copy text around</td><td class="us">A Delivery folder per platform: the video and the text to paste</td></tr>
+          <tr><th scope="row">Cost</th><td>Several tools, often monthly</td><td class="us">$79 once ($49 for the first 100 buyers)</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="tnote swipe">Swipe the table sideways to see every column.</p>
+
+    <div class="gap">
+      <h2 id="h-tools">One app instead of three kinds of tools</h2>
+      <p class="intro">Loop tools stop at the long video. Clip and SEO tools live in the cloud and charge monthly. Rendlune does the whole job, offline.</p>
+      <div class="table-wrap" role="region" aria-label="Rendlune compared with other kinds of tools" tabindex="0">
+        <table>
+          <thead><tr><th scope="col">Feature</th><th scope="col" class="us">Rendlune</th><th scope="col">Loop-only tools</th><th scope="col">Cloud clip &amp; SEO tools</th></tr></thead>
+          <tbody>
+            <tr><th scope="row">Seamless loops of 8+ hours</th><td class="us">Yes, up to 24 hours</td><td>Yes</td><td>Rarely; long files cost more</td></tr>
+            <tr><th scope="row">Shorts, Reels and square crops</th><td class="us">Yes</td><td>Usually not</td><td>Yes</td></tr>
+            <tr><th scope="row">On-screen calls to action</th><td class="us">Yes, per format, clear of app buttons</td><td>Basic overlays at most</td><td>Some</td></tr>
+            <tr><th scope="row">AI titles, descriptions and tags</th><td class="us">Yes, for 6 platforms</td><td>No</td><td>Often a separate tool</td></tr>
+            <tr><th scope="row">Renders on your own PC</th><td class="us">Yes</td><td>Yes</td><td>No, upload required</td></tr>
+            <tr><th scope="row">Price</th><td class="us">One-time</td><td>Cheap one-offs or 30-day passes</td><td>Monthly subscriptions or credits</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="tnote">Swipe the table sideways to see every column. Based on our review of popular tools in October 2026. Features vary from tool to tool.</p>
+    </div>
+  </div>
+</section>
+
+<section class="paper" aria-labelledby="h-inside">
+  <div class="wrap">
+    <h2 id="h-inside">Your words on every format, and help when you need it</h2>
+    <p class="intro">Screens from the current build. Click any picture on this page to see it full size. The released app may look slightly different.</p>
+    <div class="looks">
+      <figure class="shot"><a class="window" href="images/screenshots/02_ctas_per_format.jpg" target="_blank" rel="noopener" title="Open full size"><img src="images/screenshots/02_ctas_per_format.jpg" width="1920" height="1080" alt="Rendlune on-screen text editor for the 9:16 Short: its own welcome, midpoint and end lines, each with position, timing and a Hide option, plus the typography style" loading="lazy"></a><figcaption><strong>Your words, per format.</strong> <span>Each format gets its own welcome, reminder and closing lines, position and style. The app shows exactly when each line appears, and any line can be hidden.</span></figcaption></figure>
+      <figure class="shot"><a class="window" href="images/screenshots/05_quick_start.jpg" target="_blank" rel="noopener" title="Open full size"><img src="images/screenshots/05_quick_start.jpg" width="1920" height="1080" alt="Rendlune Quick Start guide, step 2 of 5: choose your videos and frame them, with numbered callouts on the Compose page" loading="lazy"></a><figcaption><strong>Guided from the first click.</strong> <span>A 5-step illustrated Quick Start guide walks you through your first video, and one-time tips show the next step.</span></figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<section aria-labelledby="h-ideas">
+  <div class="wrap">
+    <h2 id="h-ideas">What will you make?</h2>
+    <p class="intro">Any short clip with gentle motion makes a great loop. A few ideas for your channel:</p>
+    <ul class="ideas">
+      <li>Rain on a window</li><li>Forest waterfall</li><li>Crackling fireplace</li><li>Ocean waves</li>
+      <li>Falling snow</li><li>Mountain stream</li><li>Thunderstorm at night</li><li>Campfire under the stars</li>
+      <li>Northern lights</li><li>Cozy cabin</li><li>Aquarium</li><li>Sleep videos</li>
+      <li>Study and focus backgrounds</li><li>Meditation and yoga backgrounds</li>
+    </ul>
+  </div>
+</section>
+
+<section class="paper" id="pricing" aria-labelledby="h-price">
+  <div class="wrap">
+    <h2 id="h-price">Pay once. Keep it.</h2>
+    <p class="intro">Try every feature free. Buy when you’re ready to publish. Prices in US dollars; sales tax may be added at checkout depending on where you live.</p>
+    <div class="plans">
+      <article class="plan">
+        <h3>Free trial</h3>
+        <p class="price">$0</p>
+        <p>No time limit, no card</p>
+        <ul>
+          <li>Every feature</li>
+          <li>A small moving “Made with Rendlune &middot; Free trial” mark on videos</li>
+          <li>Masters up to 10 minutes</li>
+          <li>Any number of computers</li>
+        </ul>
+        <div class="plan-cta">
+          <a class="btn" href="mailto:hello@rendlune.com?subject=Tell%20me%20when%20the%20Rendlune%20trial%20is%20out">Download free trial</a>
+          <p>Coming soon. Click to get an email at launch.</p>
+        </div>
+      </article>
+      <article class="plan main">
+        <span class="tag">Launch price, first 100 buyers</span>
+        <h3>License</h3>
+        <p class="price"><s>$79</s>$49 <small>one-time</small></p>
+        <p>Then $79. No subscription.</p>
+        <ul>
+          <li>Every feature, no mark on videos</li>
+          <li>Masters up to 24 hours</li>
+          <li>2 computers (for example a desktop and a laptop)</li>
+          <li>12 months of updates included; renew for $29/year if you like. The app keeps working either way.</li>
+        </ul>
+        <div class="plan-cta">
+          <a class="btn primary" href="mailto:hello@rendlune.com?subject=Save%20me%20a%20%2449%20launch%20price%20spot">Buy for $49</a>
+          <p>Coming soon. Click to get an email at launch.</p>
+        </div>
+      </article>
+    </div>
+    <p class="fine">Payment and sales tax will be handled by Polar, our reseller. AI features use your own key from Google, OpenAI or Anthropic: you pay them directly, typically a few cents for a video’s titles and descriptions and about $1 to generate a seed clip with AI. These are estimates; your provider sets and may change its prices.</p>
+  </div>
+</section>
+
+<section id="faq" aria-labelledby="h-faq">
+  <div class="wrap">
+    <h2 id="h-faq">Questions</h2>
+    <div class="faq">
+<details><summary>When can I get it?</summary><div class="ans"><p>Rendlune is almost ready. Subscribe on <a href="https://www.youtube.com/@rendlune" rel="noopener">YouTube</a> or <a href="mailto:hello@rendlune.com?subject=Tell%20me%20when%20Rendlune%20launches">email us</a> and we’ll tell you the day the free trial and the $49 launch price open.</p></div></details>
+<details><summary>Is there a free trial?</summary><div class="ans"><p>Yes, with no time limit and no card. Every feature works; videos carry a small moving “Made with Rendlune &middot; Free trial” mark and Masters stop at 10 minutes. Buy a license to remove both.</p></div></details>
+<details><summary>Do I need video editing experience?</summary><div class="ans"><p>No. You pick your lengths, type your on-screen lines and click Start Production. A Quick Start guide (in the Help menu) and “Next step” tips walk you through your first video.</p></div></details>
+<details><summary>What is a seamless loop?</summary><div class="ans"><p>A video that repeats a short clip so smoothly you can’t see where it restarts. Rendlune crossfades the clip’s end into its start, picture and sound, so an 8-hour video looks like one continuous scene. How invisible the loop is depends on the clip: steady, gentle motion (water, rain, fire, snow) loops best; sudden changes, people or camera moves are harder to hide.</p></div></details>
+<details><summary>Can I make TikToks and Instagram Reels too?</summary><div class="ans"><p>Yes. The 9:16 clips work for YouTube Shorts, TikTok and Instagram Reels, and the square clips for feeds. Rendlune writes the captions for each platform.</p></div></details>
+<details><summary>How long does a 12-hour video take to render?</summary><div class="ans"><p>In our testing, a 12-hour 4K Master plus eight short clips took under 8 minutes on the processor alone, without a graphics card. Rendlune renders one seamless loop and repeats it, so a longer video barely adds time. Rendering speed is hardware dependent, so treat this as an example, not a guarantee: your time will vary with your computer, your clip and the lengths and outputs you choose.</p></div></details>
+<details><summary>How can I make long renders faster?</summary><div class="ans"><p>Save to your fastest drive with plenty of free space. An 8-hour 4K Master is about 100&ndash;170 GB, and some SSDs slow down a lot once they’ve written their first 100 GB or so. A graphics card (NVIDIA or AMD) speeds up the Shorts and square clips.</p></div></details>
+<details><summary>Can I use it just to turn wide videos into Shorts and Reels?</summary><div class="ans"><p>Yes. Untick the Master and Rendlune makes only the 9:16 and 1:1 clips. It works with landscape, ultra-wide and other odd-sized footage: drag a box to choose what stays in frame.</p></div></details>
+<details><summary>Can I change or turn off the subscribe reminders?</summary><div class="ans"><p>Yes. Write any line you like (it doesn’t have to say “subscribe”) and choose how often it repeats on long videos: every 15, 30 or 60 minutes, or off. You can also hide the welcome or closing line for any format.</p></div></details>
+<details><summary>What if my clip isn’t 16:9?</summary><div class="ans"><p>It still works, vertical phone videos included. Rendlune zooms the clip to fill the frame or places it on a soft blurred copy of itself, so there are no black bars unless you want them.</p></div></details>
+<details><summary>What if something goes wrong?</summary><div class="ans"><p>In the app, choose Help, then Save diagnostics for support. It makes one file you can email to <a href="mailto:hello@rendlune.com">hello@rendlune.com</a> so we can help faster.</p></div></details>
+<details><summary>Does it only work with nature clips?</summary><div class="ans"><p>It works with any short clip, but it’s made for nature and ambient footage, where gentle motion makes the loop hard to spot. Output quality also depends on your source clip: a sharp, steady, high-resolution clip gives the best 4K Master.</p></div></details>
+<details><summary>Do I need an AI subscription?</summary><div class="ans"><p>No. AI is optional: you can type your own titles and calls to action. To let Rendlune write them, paste a key from Google (free to create at aistudio.google.com), OpenAI or Anthropic. You pay that provider directly, usually a few cents per video, at the provider’s current prices. The key stays on your PC.</p></div></details>
+<details><summary>Does it upload my videos anywhere?</summary><div class="ans"><p>No, and there’s no account to create. Rendering happens on your PC. The only things that leave it are the license check, the one-time FFmpeg download, and, only when you use an AI button, a single frame of your clip or your prompt, sent to the AI provider you chose under that provider’s own terms and privacy policy.</p></div></details>
+<details><summary>What do I need to run it?</summary><div class="ans"><p>Windows 10 or 11 (64-bit); there’s no Mac version yet. You’ll also need enough free disk space for your videos (in our testing about 100&ndash;170 GB for an 8-hour 4K Master and 150&ndash;260 GB for 12 hours, depending on the footage, and Rendlune checks your free space before it starts). A graphics card from NVIDIA or AMD makes rendering faster, but isn’t required. No administrator rights needed to install.</p></div></details>
+<details><summary>Does Rendlune connect to the internet?</summary><div class="ans"><p>Only for the license check, the one-time FFmpeg download, a once-a-day check for a new version (the app tells you; nothing downloads by itself), and the AI requests you click. There’s no account to create and no tracking.</p></div></details>
+<details><summary>Where are my videos saved?</summary><div class="ans"><p>In C:\Rendlune Renders, one folder per project, unless you choose another folder. It’s kept outside OneDrive and Documents because the files are large.</p></div></details>
+<details><summary>What is FFmpeg, and why does it download?</summary><div class="ans"><p>FFmpeg is the free, widely used video tool that does the encoding. It’s a separate program with its own license, so instead of bundling it, Rendlune downloads the official release once on first start (currently about 258 MB), or uses a copy you already have.</p></div></details>
+<details><summary>Can I use it on my laptop and my desktop?</summary><div class="ans"><p>Yes. A license works on two computers. To move it to a new one, deactivate it on the old one (Help &gt; License).</p></div></details>
+<details><summary>What happens after the 12 months of updates?</summary><div class="ans"><p>Nothing stops working: you keep using the version you have. Renew for $29 a year if you want the newer versions. Future changes to Windows or to the platforms’ rules may, in time, need a newer version.</p></div></details>
+<details><summary>Can I monetize the videos?</summary><div class="ans"><p>Yes. Videos made with a license are yours to publish and monetize, as long as you own, or have permission to use, the footage and any music or sound in them. Rendlune doesn’t supply or license footage. Clips you make with AI on the Generate page follow your AI provider’s terms. Each platform also decides monetization under its own rules, so check them before you rely on earnings. Rendlune can’t promise views, subscribers or income.</p></div></details>
+    </div>
+  </div>
+</section>
+
+<section class="yt" aria-labelledby="h-yt">
+  <div class="wrap">
+    <h2 id="h-yt">Follow along on YouTube</h2>
+    <p>See what Rendlune makes, and be first to know when it launches.</p>
+    <p><a href="https://www.youtube.com/@rendlune" rel="noopener">youtube.com/@rendlune</a></p>
+  </div>
+</section>
+
 </main>
+
+<footer class="site-foot">
+  <div class="wrap">
+    <div class="notes">
+      <p><strong>Performance.</strong> Rendering speed is hardware dependent (processor, graphics card, memory and disk) and also varies with your clip and settings. Render times and file sizes on this page are examples from our own testing, not guarantees. Output quality depends on your source clip.</p>
+      <p><strong>Your content.</strong> You are responsible for having the rights to the footage, music and sound you use, especially if you plan to monetize your videos. Review AI-written text and AI-made clips before you publish, and follow each platform’s rules. Rendlune does not promise views, subscribers or earnings.</p>
+      <p><strong>Third parties.</strong> YouTube, TikTok, Instagram, Facebook, Pinterest, Google, OpenAI, Anthropic, Windows and FFmpeg are trademarks of their respective owners. Rendlune is not affiliated with or endorsed by them. Their rules, layouts, prices and terms can change at any time.</p>
+      <p><strong>Before launch.</strong> Features, screenshots and prices may change before release.</p>
+    </div>
+    <p class="made">Rendlune is made by QuantumStream Ventures Ltd., Canada. &copy; 2026</p>
+    <p><a href="mailto:hello@rendlune.com">hello@rendlune.com</a> &nbsp; <a href="https://www.youtube.com/@rendlune" rel="noopener">YouTube @rendlune</a></p>
+  </div>
+</footer>
 </body>
 </html>
